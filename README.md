@@ -22,9 +22,9 @@ Deploy in Nginx Default Location.
 # cd /usr/share/nginx/html
 # rm -rf * 
 # unzip /tmp/frontend.zip
-# mv frontend-main/* .
+# mv rs-frontend-main/* .
 # mv static/* .
-# rm -rf frontend-master README.md
+# rm -rf rs-frontend-main static README.md
 # mv localhost.conf /etc/nginx/default.d/roboshop.conf
 ```
 
